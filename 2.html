@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<title>Time Sheet</title>
+<meta charset="utf-8">
+<style>
+table { width: 300px;
+        margin: auto;
+}
+caption { font-size: 2em;
+          font-weight: bold;
+}
+thead { background-color: #eaeaea;
+}
+tbody { font-family: Arial, sans-serif;
+        font-size: .90em;
+}
+tbody td { border-bottom: 1px #000033 dashed;
+           padding-left: 25px;
+}
+tfoot { background-color: #eaeaea;
+        font-weight: bold;
+        text-align: center;
+}
+tr:nth-of-type(even) { background-color: #eaeaea; }
+
+</style>
+</head>
+<body >
+       <table>
+         <caption>Time Sheet</caption>
+         <thead>
+           <tr>
+             <th id="course number">Course Number</th>
+             <th id="course name">Course Name</th>
+             <th id="instructor name">Instructor Name</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td headers="course number">123456</td>
+             <td headers="course name">Rock Climbing</td>
+             <td headers="instructor name">Aodnaith Carroll</td>
+           </tr>
+           <tr>
+             <td headers="course number">123457</td>
+             <td headers="course name">Kayaking</td>
+             <td headers="instructor name">Ronan Kane</td>
+           </tr>
+           <tr>
+             <td headers="course number">123458</td>
+             <td headers="course name">Sailing</td>
+             <td headers="instructor name">Keith O'Driscoll</td>
+           </tr>
+          </tbody>
+         </tfoot>
+      </table>  
+</body>
+</html>

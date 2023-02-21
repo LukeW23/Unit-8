@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<title>Top Movies</title>
+<meta charset="utf-8">
+<style>
+table { width: 300px;
+        margin: auto;
+        border: 1px solid #010101;
+}
+caption { font-size: 2em;
+          font-weight: bold;
+          border: 1px solid #010101
+}
+thead { background-color: #eaeaea;
+        border: 1px solid #010101;
+}
+tbody { font-family: Arial, sans-serif;
+        font-size: .90em;
+        border: 1px solid #010101;
+}
+tbody td { padding-left: 25px;
+          border: 1px solid #010101
+}
+tfoot { background-color: #eaeaea;
+        font-weight: bold;
+        text-align: center;
+        border: 1px solid #010101
+}
+tr:nth-of-type(even) { background-color: #cccccc; }
+
+</style>
+</head>
+<body >
+       <table>
+         <caption>Top Movies</caption>
+         <thead>
+           <tr>
+             <th id="Movie Name">Movie Name</th>
+             <th id="Description">Description</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td headers="Movie Name">John Wick</td>
+             <td headers="Description">Don't mess with a man's best friend</td>
+           </tr>
+           <tr>
+             <td headers="Movie Name">Up</td>
+             <td headers="Description">It's never too late to go on an adventure</td>
+           </tr>
+           <tr>
+             <td headers="Movie Name">Forrest Gump</td>
+             <td headers="Description">Everything is possiblie no matter who one is or where one comes from</td>
+           </tr>
+          </tbody>
+         </tfoot>
+      </table>  
+</body>
+</html>
